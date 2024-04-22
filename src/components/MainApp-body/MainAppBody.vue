@@ -1,18 +1,16 @@
 <template>
-    <MainHeroSection />
+    <MainAppAgencySection />
 </template>
 
 <script>
-import MainHeroSection from "./MainHeroSection.vue"
-
+import MainAppAgencySection from "./MainAppAgencySection.vue"
     export default {
         components:{
-            MainHeroSection,
+            MainAppAgencySection,
         }
     }
 </script>
 
 <style lang="scss" scoped>
-
 
 </style>
