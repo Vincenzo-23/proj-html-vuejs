@@ -1,20 +1,22 @@
 <template>
-    <div class="container_large">
-        <div class="row">
-            <div class="col-auto logo">
-                <img src="/images/logo_seo_w_2x.png" alt="">
+    <header class="header_section">
+        <div class="container_large">
+            <div class="row">
+                <div class="col-auto logo">
+                    <img src="/images/logo_seo_w_2x.png" alt="">
+                </div>
+                <ul class="col-auto d-flex flex-row navbar">
+                    <li v-for="(menu, i) in voices" :key="i">
+                        <a href="#">{{menu}}</a>
+                    </li>
+                </ul>
+                <div class="col-auto">
+                    <button class="button">GET IN TOUCH NOW</button>
+                </div>
             </div>
-            <ul class="col-auto d-flex flex-row navbar">
-                <li v-for="(menu, i) in voices" :key="i">
-                    <a href="#">{{menu}}</a>
-                </li>
-            </ul>
-            <div class="col-auto">
-                <button class="button">GET IN TOUCH NOW</button>
-            </div>
+            
         </div>
-        
-    </div>
+    </header>
 </template>
 
 <script>
@@ -30,6 +32,7 @@
 .navbar{
     gap: 35px;
     padding-right: 25px;
+    color: white;
     
 }
 .logo{
