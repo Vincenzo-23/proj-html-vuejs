@@ -1,0 +1,17 @@
+.container_small{
+    max-width: 530px;
+}
+
+.container_medium{
+    max-width: 780px;
+}
+
+.container_large{
+    max-width: 1200px;
+}
+
+.container_large,
+.container_medium,
+.container_small{
+    margin: 0 auto;
+}
