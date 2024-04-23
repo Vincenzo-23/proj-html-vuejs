@@ -20,12 +20,16 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
-    faGoogle
+    faGoogle,
+    faFacebookF,
+    faInstagram,
+    faTwitter,
+    faYoutube,
 
 } from '@fortawesome/free-brands-svg-icons'
 
 
-library.add(faDroplet, faVideo, faRoad, faGoogle, faGear, faBuilding, faChartColumn)
+library.add(faDroplet, faVideo, faRoad, faGoogle, faGear, faBuilding, faChartColumn, faFacebookF, faInstagram, faTwitter, faYoutube)
 
 const app = createApp(App)
 

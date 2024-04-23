@@ -2,7 +2,7 @@
   
   <!-- Header section and MainHeader section with the same background -->
   <section class="top_background">
-    <HeaderApp :voices="menus" />
+    <HeaderApp :voices="headerMenus" />
     <MainAppHeader />
   </section>
 
@@ -11,22 +11,29 @@
     <MainAppBody />
   </section>
 
+<!-- Footer section -->
+<section>
+  <FooterApp :menus="footerMenus"/>
+</section>
 </template>
 
 <script>
 import HeaderApp from "./components/HeaderApp.vue"
 import MainAppHeader from "./components/MainApp-header/MainAppHeader.vue"
 import MainAppBody from "./components/MainApp-body/MainAppBody.vue"
+import FooterApp from "./components/FooterApp.vue"
 
   export default {
     components:{
       HeaderApp,
       MainAppHeader,
       MainAppBody,
+      FooterApp
     },
     data(){
       return{
-        menus: [ "Home", "Who We Are", "What We Do", "Where We Work", "Careers", "APPLY", "News"]
+        headerMenus: [ "Home", "Who We Are", "What We Do", "Where We Work", "Careers", "APPLY", "News"],
+        footerMenus: [ "Home", "Who We Are", "What We Do", "Where We Work", "Careers", "News", "Get in touch Now"]
       }
     }
   }

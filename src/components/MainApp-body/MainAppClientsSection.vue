@@ -15,16 +15,16 @@
         <div class="container_large partners">
             <div class="row justify-content-evenly">
                 <div class="col-auto">
-                    <img src="/public/images/clients_partner_5-200x202.png" alt="logo image" class="partner_image">
+                    <img src="/images/clients_partner_5-200x202.png" alt="logo image" class="partner_image">
                 </div>
                 <div class="col-auto">
-                    <img src="/public/images/clients_partner_6-200x202.png" alt="logo image" class="partner_image">
+                    <img src="/images/clients_partner_6-200x202.png" alt="logo image" class="partner_image">
                 </div>
                 <div class="col-auto">
-                    <img src="/public/images/clients_partner_1-200x202.png" alt="logo image" class="partner_image">
+                    <img src="/images/clients_partner_1-200x202.png" alt="logo image" class="partner_image">
                 </div>
                 <div class="col-auto">
-                    <img src="/public/images/clients_partner_2-200x202.png" alt="logo image" class="partner_image">
+                    <img src="/images/clients_partner_2-200x202.png" alt="logo image" class="partner_image">
                 </div>
             </div>
         </div>
