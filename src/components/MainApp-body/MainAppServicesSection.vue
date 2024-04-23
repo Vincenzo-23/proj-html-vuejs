@@ -16,25 +16,29 @@
                     <div class="icon"><font-awesome-icon :icon="['fab', 'google']" /></div>
                     <h3 class="card_title">Google SEO</h3>
                     <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam impedit architecto. Fugit ex doloremque dolorem eaque asperiores delectus soluta.</p>
-                    <a href="#" class="read_more">Read More ></a>
+                    <a href="#" class="card_subtitle first_subtitle">Read More ></a>
+                    <a href="#" class="card_subtitle second_subtitle">Let's work toghether ></a>
                 </div>
                 <div class="card border-0">
                     <div class="icon"><font-awesome-icon :icon="['fas', 'gear']" /></div>
                     <h3 class="card_title">Brand Strategy</h3>
                     <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam impedit architecto. Fugit ex doloremque dolorem eaque asperiores delectus soluta.</p>
-                    <a href="#" class="read_more">Read More ></a>
+                    <a href="#" class="card_subtitle first_subtitle">Read More ></a>
+                    <a href="#" class="card_subtitle second_subtitle">Let's work toghether ></a>
                 </div>
                 <div class="card border-0">
                     <div class="icon"><font-awesome-icon :icon="['fas', 'building']" /></div>
                     <h3 class="card_title">Local SEO</h3>
                     <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam impedit architecto. Fugit ex doloremque dolorem eaque asperiores delectus soluta.</p>
-                    <a href="#" class="read_more">Read More ></a>
+                    <a href="#" class="card_subtitle first_subtitle">Read More ></a>
+                    <a href="#" class="card_subtitle second_subtitle">Let's work toghether ></a>
                 </div>
                 <div class="card border-0">
                     <div class="icon"><font-awesome-icon :icon="['fas', 'chart-column']" /></div>
                     <h3 class="card_title">SEO Analysis</h3>
                     <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam impedit architecto. Fugit ex doloremque dolorem eaque asperiores delectus soluta.</p>
-                    <a href="#" class="read_more">Read More ></a>
+                    <a href="#" class="card_subtitle first_subtitle">Read More ></a>
+                    <a href="#" class="card_subtitle second_subtitle">Let's work toghether ></a>
                 </div>
             </div>
         </div>
@@ -93,8 +97,22 @@
             padding-bottom: 35px;
             line-height: 1.7;
         }
-        .read_more{
+        .card_subtitle{
             color: rgb(255, 167, 55);
+        }
+        .second_subtitle{
+                display: none;
+            }
+        &:hover{
+            .card_title{
+                color: rgb(255, 167, 55);
+            }
+            .first_subtitle{
+                display: none;
+            }
+            .second_subtitle{
+                display: block;
+            }
         }
     }
 }

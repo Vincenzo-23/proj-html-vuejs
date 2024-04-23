@@ -68,6 +68,9 @@ footer{
             &:first-child{
                 color: rgb(255, 167, 55);
             }
+            &:hover{
+                color: rgb(255, 167, 55);
+            }
         }
     }
     // Credits

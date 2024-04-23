@@ -59,6 +59,9 @@
             font-size: 12px;
             margin-left: -30px;
         }
+        &:hover{
+            color: rgb(255, 167, 55);
+        }
     }
 }
 

@@ -82,6 +82,11 @@
     .card_paragraph{
         line-height: 1.7;
     }
+    &:hover{
+        .card_title{
+            color: rgb(255, 167, 55);
+        }
+    }
 }
 
 //Agency image

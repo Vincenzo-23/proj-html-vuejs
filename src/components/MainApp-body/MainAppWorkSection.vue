@@ -12,12 +12,30 @@
         <!-- Section grid with images -->
         <div class="container_large">
             <div class="row justify-content-evenly">
-                <img class="col-auto" src="/images/case-study-gallery-3-1.jpg" alt="A desk with a laptop">
-                <img class="col-auto" src="/images/case-study-gallery-2.jpg" alt="A smartphone">
-                <img class="col-auto" src="/images/case-study-gallery-1-1.jpg" alt="A monitor with graphs">
-                <img class="col-auto" src="/images/case-study-gallery-4-1.jpg" alt="A monitor with graphs">
-                <img class="col-auto" src="/images/case-study-gallery-5-1.jpg" alt="A monitor with graphs">
-                <img class="col-auto" src="/images/case-study-gallery-6-1.jpg" alt="A monitor with graphs">
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-3-1.jpg" alt="A desk with a laptop">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-2.jpg" alt="A smartphone">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-1-1.jpg" alt="A monitor with graphs">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-4-1.jpg" alt="A monitor with graphs">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-5-1.jpg" alt="A monitor with graphs">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
+                <div class="col-auto img_wrapper">
+                    <img src="/images/case-study-gallery-6-1.jpg" alt="A monitor with graphs">
+                    <div class="link_img"><a href="#"><font-awesome-icon :icon="['fas', 'link']" /></a></div>
+                </div>
             </div>
         </div>
         <!-- Section button -->
@@ -59,9 +77,32 @@
 // Images
 .row{
     row-gap: 18px;
-    img{
-        width: 380px;
-        height: 285px;
+    .img_wrapper{
+        padding: 0;
+        position: relative;
+        img{
+            width: 380px;
+            height: 285px;
+        }
+        .link_img{
+            color: white;
+            font-size: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgb(98, 124, 254), white);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 0;
+        }
+        &:hover{
+            .link_img{
+                opacity: 0.8;
+            }
+        }
     }
 }
 

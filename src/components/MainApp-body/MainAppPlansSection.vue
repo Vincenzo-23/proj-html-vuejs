@@ -55,7 +55,7 @@
                         <li>30 GB Storage</li>
                         <li>Unlimited Users</li>
                     </ul>
-                    <button class="card_button yellow_button">START TODAY</button>
+                    <button class="card_button selected_button">START TODAY</button>
                 </div>
                 <div class="card border-0">
                     <h3 class="card_title">Extreme</h3>
@@ -166,10 +166,21 @@
             border: 1px solid black;
             color: rgb(93, 95, 100);
         }
-        .yellow_button{
+        .selected_button{
             background-color: rgb(255, 167, 55);
             color: white;
             border: none;
+        }
+        &:hover{
+            .card_title{
+                color: rgb(96, 122, 254)
+            }
+            .card_button,
+            .selected_button{
+                background-color: white;
+                border: 1px solid rgb(96, 122, 254);
+                color: rgb(96, 122, 254)
+            }
         }
     }
 }    
