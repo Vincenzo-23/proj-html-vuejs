@@ -26,14 +26,22 @@
                 <font-awesome-icon :icon="['fab', 'youtube']" />
             </div>
             <!-- Fixed button -->
-            <button class="fixed_button"><a href="#">^</a></button>
+            <button class="fixed_button" @click="scrollToTop">^</button>
         </div>
     </footer>
 </template>
 
 <script>
     export default {
-        props:["menus"]
+        props:["menus"],
+        methods: {
+            scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth',
+                });
+            },
+        }
     }
 </script>
 
