@@ -3,7 +3,7 @@
         <!-- Client section feedback -->
         <div class="container_medium">
             <h2 class="subtitle">What Our Clients Say</h2>
-            <img src="/images/testimonials-2.jpg" alt="a testimonial picture" class="testimonial">
+            <img src="/images/testimonials-2.jpg" alt="a testimonial picture" class="testimonial_img">
             <p class="testimonial_description">Ability proceeds from a fusion of skills, knowledge, undertanding and imagination, consolidated by experience.</p>
             <p class="testimonial_name"><strong>Luis Desalvo, </strong>CREO TECH</p>
             <div class="switch_image d-flex justify-content-center gap-2">
@@ -47,7 +47,7 @@
         font-weight: 700;
         margin-bottom: 50px;
     }
-    .testimonial{
+    .testimonial_img{
         width: 150px;
         aspect-ratio: 1/1;
         border-radius: 99px;

@@ -1,8 +1,8 @@
 <template>
     <div class="services_section">
-        <!-- Section subtitle and paragraph -->
+        <!-- Services section description -->
         <div class="container_small">
-            <div class="subtitle">
+            <div class="description">
                 <h2>SEE Our Top Notch Services</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum doloribus! Aspernatur, quasi!
@@ -57,14 +57,17 @@
     background-color: rgb(5, 22, 66);
     color: white;
 }
-// Subtitle and paragraph
-.subtitle{
+// Services section description
+.description{
     text-align: center;
-    margin-bottom: 95px;
     h2{
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 35px;
+    }
+    p{
+        margin-bottom: 95px;
+        font-size: 20px;
     }
 }
 // Cards grid

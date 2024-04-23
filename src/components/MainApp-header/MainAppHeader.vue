@@ -16,6 +16,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </template>
@@ -37,6 +38,7 @@
     }
     p{
         padding: 25px 0;
+        font-size: 20px;
     }
     .button{
         border-radius: 999px;

@@ -1,8 +1,8 @@
 <template>
     <div class="news_section">
-        <!-- News section subtitle and paragraph -->
+        <!-- News description section-->
         <div class="container_small">
-            <div class="subtitle">
+            <div class="description">
                 <h2>Our News</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos dignissimos nostrum cum.
@@ -59,14 +59,17 @@
     padding: 115px 0 110px;
 }
 
-// Subtitle and paragraph
-.subtitle{
+// Description section
+.description{
     text-align: center;
-    margin-bottom: 80px;
     h2{
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 35px;
+    }
+    p{
+        margin-bottom: 80px;
+        font-size: 20px;
     }
 }
 

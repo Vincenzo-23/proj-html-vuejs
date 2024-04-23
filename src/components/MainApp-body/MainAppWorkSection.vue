@@ -1,8 +1,8 @@
 <template>
     <div class="work_section">
-        <!-- Section subtitle and paragraph -->
+        <!-- Work section description -->
         <div class="container_small">
-            <div class="subtitle">
+            <div class="description">
                 <h2>Our Work</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos dignissimos nostrum cum.
@@ -42,14 +42,17 @@
     padding: 110px 0;
 }
 
-// Subtitle and paragraph
-.subtitle{
+// Work section description
+.description{
     text-align: center;
-    margin-bottom: 80px;
     h2{
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 35px;
+    }
+    p{
+        margin-bottom: 80px;
+        font-size: 20px;
     }
 }
 

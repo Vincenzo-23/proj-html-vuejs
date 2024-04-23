@@ -1,8 +1,8 @@
 <template>
     <div class="plans_section">
-        <!-- Plans section subtitle and paragraph -->
+        <!-- Plans section description -->
         <div class="container_small">
-            <div class="subtitle">
+            <div class="description">
                 <h2>Our Plans</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos dignissimos nostrum cum.
@@ -91,15 +91,18 @@
     padding: 110px 0 100px;
 }
 
-// Subtitle and paragraph
-.subtitle{
+// Plans section description
+.description{
     text-align: center;
-    margin-bottom: 70px;
     color: white;
     h2{
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 35px;
+    }
+    p{
+        margin-bottom: 70px;
+        font-size: 20px;
     }
 }
 
