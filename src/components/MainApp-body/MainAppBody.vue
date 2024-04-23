@@ -4,6 +4,7 @@
     <MainAppWorkSection />
     <MainAppPlansSection />
     <MainAppNewsSection />
+    <MainAppClientsSection />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import MainAppServicesSection from "./MainAppServicesSection.vue"
 import MainAppWorkSection from "./MainAppWorkSection.vue"
 import MainAppPlansSection from "./MainAppPlansSection.vue"
 import MainAppNewsSection from "./MainAppNewsSection.vue"
+import MainAppClientsSection from "./MainAppClientsSection.vue"
 
     export default {
         components:{
@@ -20,6 +22,7 @@ import MainAppNewsSection from "./MainAppNewsSection.vue"
             MainAppWorkSection,
             MainAppPlansSection,
             MainAppNewsSection,
+            MainAppClientsSection
         }
     }
 </script>

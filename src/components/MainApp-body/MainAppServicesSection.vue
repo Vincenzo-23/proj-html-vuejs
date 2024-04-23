@@ -50,7 +50,7 @@
 <style lang="scss" scoped>
 .services_section{
     padding: 115px 0 180px;
-    background-image: url(/public/images/pattern_background.png);
+    background-image: url(/images/pattern_background.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
