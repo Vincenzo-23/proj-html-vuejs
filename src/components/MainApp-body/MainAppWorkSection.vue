@@ -11,13 +11,13 @@
         </div>
         <!-- Section grid with images -->
         <div class="container_large">
-            <div class="d-flex">
-                <img class="col-auto" src="/images/case-study-gallery-3-1.jpg" alt="">
-                <img class="col-auto" src="/images/case-study-gallery-2.jpg" alt="">
-                <img class="col-auto" src="/images/case-study-gallery-1-1.jpg" alt="">
-                <img class="col-auto" src="/images/case-study-gallery-4-1.jpg" alt="">
-                <img class="col-auto" src="/images/case-study-gallery-5-1.jpg" alt="">
-                <img class="col-auto" src="/images/case-study-gallery-6-1.jpg" alt="">
+            <div class="row justify-content-evenly">
+                <img class="col-auto" src="/images/case-study-gallery-3-1.jpg" alt="A desk with a laptop">
+                <img class="col-auto" src="/images/case-study-gallery-2.jpg" alt="A smartphone">
+                <img class="col-auto" src="/images/case-study-gallery-1-1.jpg" alt="A monitor with graphs">
+                <img class="col-auto" src="/images/case-study-gallery-4-1.jpg" alt="A monitor with graphs">
+                <img class="col-auto" src="/images/case-study-gallery-5-1.jpg" alt="A monitor with graphs">
+                <img class="col-auto" src="/images/case-study-gallery-6-1.jpg" alt="A monitor with graphs">
             </div>
         </div>
         <!-- Section button -->
@@ -45,7 +45,7 @@
 // Subtitle and paragraph
 .subtitle{
     text-align: center;
-    margin-bottom: 95px;
+    margin-bottom: 80px;
     h2{
         font-size: 34px;
         font-weight: 700;
@@ -54,9 +54,7 @@
 }
 
 // Images
-.d-flex{
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.row{
     row-gap: 18px;
     img{
         width: 380px;

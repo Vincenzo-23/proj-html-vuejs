@@ -94,7 +94,7 @@
 // Subtitle and paragraph
 .subtitle{
     text-align: center;
-    margin-bottom: 95px;
+    margin-bottom: 70px;
     color: white;
     h2{
         font-size: 34px;
