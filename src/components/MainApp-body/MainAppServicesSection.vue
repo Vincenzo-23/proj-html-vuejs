@@ -1,7 +1,7 @@
 <template>
-    <div class="section">
+    <div class="services_section">
         <div class="container_small">
-            <div class="container_small subtitle">
+            <div class="subtitle">
                 <h2>SEE Our Top Notch Services</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum doloribus! Aspernatur, quasi!
@@ -46,7 +46,7 @@
 </script>
 
 <style lang="scss" scoped>
-.section{
+.services_section{
     padding: 115px 0 180px;
     background-image: url(/public/images/pattern_background.png);
     background-repeat: no-repeat;

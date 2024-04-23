@@ -6,7 +6,6 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis similique, provident quo incidunt vitae beatae.
             </p>
         </div>
-
         <div class="container_large ">
             <div class="grid">
                 <div class="card border-0">
