@@ -57,7 +57,8 @@
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 30px;
+    padding-bottom: 30px;
 }
 .card{
     padding: 40px 35px;
@@ -70,7 +71,9 @@
     .card_title{
         padding-bottom: 20px;
         font-weight: 800;
-        
+    }
+    .card_paragraph{
+        line-height: 1.7;
     }
 }
 

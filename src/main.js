@@ -12,11 +12,20 @@ import {
 	faDroplet,
     faVideo,
     faRoad,
+    faGear,
+    faBuilding,
+    faChartColumn,
+    
 
 } from '@fortawesome/free-solid-svg-icons'
 
+import {
+    faGoogle
 
-library.add(faDroplet, faVideo, faRoad)
+} from '@fortawesome/free-brands-svg-icons'
+
+
+library.add(faDroplet, faVideo, faRoad, faGoogle, faGear, faBuilding, faChartColumn)
 
 const app = createApp(App)
 
