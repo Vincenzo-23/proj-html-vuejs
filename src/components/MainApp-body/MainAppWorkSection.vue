@@ -1,5 +1,6 @@
 <template>
     <div class="work_section">
+        <!-- Section subtitle and paragraph -->
         <div class="container_small">
             <div class="subtitle">
                 <h2>Our Work</h2>
@@ -7,17 +8,19 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos dignissimos nostrum cum.
                 </p>
             </div>
-        </div>    
+        </div>
+        <!-- Section grid with images -->
         <div class="container_large">
-            <div class="grid">
-                <img src="/images/case-study-gallery-3-1.jpg" alt="">
-                <img src="/images/case-study-gallery-2.jpg" alt="">
-                <img src="/images/case-study-gallery-1-1.jpg" alt="">
-                <img src="/images/case-study-gallery-4-1.jpg" alt="">
-                <img src="/images/case-study-gallery-5-1.jpg" alt="">
-                <img src="/images/case-study-gallery-6-1.jpg" alt="">
+            <div class="d-flex">
+                <img class="col-auto" src="/images/case-study-gallery-3-1.jpg" alt="">
+                <img class="col-auto" src="/images/case-study-gallery-2.jpg" alt="">
+                <img class="col-auto" src="/images/case-study-gallery-1-1.jpg" alt="">
+                <img class="col-auto" src="/images/case-study-gallery-4-1.jpg" alt="">
+                <img class="col-auto" src="/images/case-study-gallery-5-1.jpg" alt="">
+                <img class="col-auto" src="/images/case-study-gallery-6-1.jpg" alt="">
             </div>
         </div>
+        <!-- Section button -->
         <div class="container_small">
             <div class="button_wrap">
                 <button class="button">VIEW OUR WORK</button>
@@ -34,6 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
+//Layout
 .work_section{
     padding: 110px 0;
 }
@@ -49,10 +53,10 @@
     }
 }
 
-// Grid of images
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+// Images
+.d-flex{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     row-gap: 18px;
     img{
         width: 380px;

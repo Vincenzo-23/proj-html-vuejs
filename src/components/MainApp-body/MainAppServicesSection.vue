@@ -1,5 +1,6 @@
 <template>
     <div class="services_section">
+        <!-- Section subtitle and paragraph -->
         <div class="container_small">
             <div class="subtitle">
                 <h2>SEE Our Top Notch Services</h2>
@@ -8,6 +9,7 @@
                 </p>
             </div>
         </div>
+        <!-- Section grid with cards -->
         <div class="container_large">
             <div class="grid">
                 <div class="card border-0">
@@ -65,10 +67,10 @@
         margin-bottom: 35px;
     }
 }
-// Grid cards
+// Cards grid
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     .card{
         background-color: rgb(7, 27, 80);

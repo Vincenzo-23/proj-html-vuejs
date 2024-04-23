@@ -1,11 +1,13 @@
 <template>
     <section class="agency_section">
+        <!-- Section subtitle and paragraph -->
         <div class="container_small subtitle">
             <h2>Meet The New Agency SEO Template From The Avada Team</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis similique, provident quo incidunt vitae beatae.
             </p>
         </div>
+        <!-- Section agency cards grid -->
         <div class="container_large ">
             <div class="grid">
                 <div class="card border-0">
@@ -25,6 +27,7 @@
                 </div>
             </div>
         </div>
+        <!-- Section image -->
         <div class="container_large">
             <img src="/images/agency-seo-desk-front.jpg" alt="Picture of a desk" class="agency_img">
         </div>
@@ -52,7 +55,7 @@
         margin-bottom: 35px;
     }
 }
-// Agency Cards
+// Agency Cards grid
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -76,7 +79,7 @@
     }
 }
 
-//Agency img
+//Agency image
 .agency_img{
     width: 1200px;
 }

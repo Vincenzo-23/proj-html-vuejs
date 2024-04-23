@@ -1,5 +1,6 @@
 <template>
     <div class="main_hero_section">
+        <!-- Main hero section title, paragraph and buttons -->
         <div class="container_large">
             <div class="row">
                 <div class="col-6 p-5">
@@ -15,7 +16,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
