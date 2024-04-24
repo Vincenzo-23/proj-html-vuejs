@@ -46,51 +46,52 @@
 .agency_section{
     padding-top: 110px;
     background-color: rgb(247, 248, 249);
-}
-// Agency section description
-.description{
-    text-align: center;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 95px;
-        font-size: 20px;
-    }
-}
-// Agency Cards grid
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding-bottom: 30px;
-}
-.card{
-    padding: 40px 35px;
-    text-align: center;
-    .icon{
-        padding-bottom: 20px;
-        font-size: 35px;
-        color: rgb(255, 167, 55);
-    }
-    .card_title{
-        padding-bottom: 20px;
-        font-weight: 800;
-    }
-    .card_paragraph{
-        line-height: 1.7;
-    }
-    &:hover{
-        .card_title{
-            color: rgb(255, 167, 55);
+
+    // Agency section description
+    .description{
+        text-align: center;
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        p{
+            margin-bottom: 95px;
+            font-size: 20px;
         }
     }
-}
-
-//Agency image
-.agency_img{
-    width: 1200px;
+    // Agency Cards grid
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    .card{
+        padding: 40px 35px;
+        text-align: center;
+        .icon{
+            padding-bottom: 20px;
+            font-size: 35px;
+            color: rgb(255, 167, 55);
+        }
+        .card_title{
+            padding-bottom: 20px;
+            font-weight: 800;
+        }
+        .card_paragraph{
+            line-height: 1.7;
+        }
+        &:hover{
+            .card_title{
+                color: rgb(255, 167, 55);
+            }
+        }
+    }
+    
+    //Agency image
+    .agency_img{
+        width: 1200px;
+    }
 }
 </style>

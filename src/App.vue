@@ -48,8 +48,6 @@ import FooterApp from "./components/FooterApp.vue"
   background-image: url(/images/1-hero-image.png);
   background-size: cover;
   background-position: center;
-  
-  
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="main_hero_section">
+    <section class="main_hero_section">
         <!-- Main hero section title, paragraph and buttons -->
         <div class="container_large">
             <div class="row">
@@ -16,9 +16,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

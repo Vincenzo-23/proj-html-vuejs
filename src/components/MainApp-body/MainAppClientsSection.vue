@@ -1,5 +1,5 @@
 <template>
-    <div class="clients_section">
+    <section class="clients_section">
         <!-- Client section feedback -->
         <div class="container_medium">
             <h2 class="subtitle">What Our Clients Say</h2>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -63,15 +63,16 @@
         cursor: pointer;
         margin-bottom: 75px;
     }
-}
-
-// Partner logos
-.partners{
-    border-top: 1px solid #e6e6e6;
-    padding-top: 60px;
-    .partner_image{
-        width: 100px;
-        aspect-ratio: 1/1;
+    
+    // Partner logos
+    .partners{
+        border-top: 1px solid #e6e6e6;
+        padding-top: 60px;
+        .partner_image{
+            width: 100px;
+            aspect-ratio: 1/1;
+        }
     }
 }
+
 </style>

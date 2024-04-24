@@ -1,5 +1,5 @@
 <template>
-    <div class="work_section">
+    <section class="work_section">
         <!-- Work section description -->
         <div class="container_small">
             <div class="description">
@@ -44,8 +44,7 @@
                 <button class="button">VIEW OUR WORK</button>
             </div>
         </div>
-    </div>
-    
+    </section>
 </template>
 
 <script>
@@ -58,66 +57,67 @@
 //Layout
 .work_section{
     padding: 110px 0;
-}
 
-// Work section description
-.description{
-    text-align: center;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 80px;
-        font-size: 20px;
-    }
-}
-
-// Images
-.row{
-    row-gap: 18px;
-    .img_wrapper{
-        padding: 0;
-        position: relative;
-        img{
-            width: 380px;
-            height: 285px;
+    // Work section description
+    .description{
+        text-align: center;
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 35px;
         }
-        .link_img{
-            color: white;
-            font-size: 28px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image: linear-gradient(rgb(98, 124, 254), white);
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            opacity: 0;
+        p{
+            margin-bottom: 80px;
+            font-size: 20px;
         }
-        &:hover{
+    }
+    
+    // Images grid
+    .row{
+        row-gap: 18px;
+        .img_wrapper{
+            padding: 0;
+            position: relative;
+            img{
+                width: 380px;
+                height: 285px;
+            }
             .link_img{
-                opacity: 0.8;
+                color: white;
+                font-size: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: linear-gradient(rgb(98, 124, 254), white);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                opacity: 0;
+            }
+            &:hover{
+                .link_img{
+                    opacity: 0.8;
+                }
             }
         }
     }
-}
-
-// Button
-.button_wrap{
-    text-align: center;
-    padding-top: 75px;
-    .button{
-        border-radius: 999px;
-        padding: 12px 35px;
-        color: white;
-        font-size: 12px;
-        font-weight: 700;
-        background-color: rgb(255, 167, 55);
-        
+    
+    // Button
+    .button_wrap{
+        text-align: center;
+        padding-top: 75px;
+        .button{
+            border-radius: 999px;
+            padding: 12px 35px;
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: rgb(255, 167, 55);
+            
+        }
     }
 }
+
 </style>

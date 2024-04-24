@@ -1,5 +1,5 @@
 <template>
-    <div class="services_section">
+    <section class="services_section">
         <!-- Services section description -->
         <div class="container_small">
             <div class="description">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -60,58 +60,59 @@
     background-position: center;
     background-color: rgb(5, 22, 66);
     color: white;
-}
-// Services section description
-.description{
-    text-align: center;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 95px;
-        font-size: 20px;
-    }
-}
-// Cards grid
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    .card{
-        background-color: rgb(7, 27, 80);
-        padding: 40px 20px 30px;
+
+    // Services section description
+    .description{
         text-align: center;
-        .icon{
-            padding-bottom: 35px;
-            font-size: 35px;
-            color: rgb(255, 167, 55);
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 35px;
         }
-        .card_title{
-            padding-bottom: 20px;
-            font-weight: 800;
-            
+        p{
+            margin-bottom: 95px;
+            font-size: 20px;
         }
-        .card_paragraph{
-            padding-bottom: 35px;
-            line-height: 1.7;
-        }
-        .card_subtitle{
-            color: rgb(255, 167, 55);
-        }
-        .second_subtitle{
-                display: none;
-            }
-        &:hover{
-            .card_title{
+    }
+    // Cards grid
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        .card{
+            background-color: rgb(7, 27, 80);
+            padding: 40px 20px 30px;
+            text-align: center;
+            .icon{
+                padding-bottom: 35px;
+                font-size: 35px;
                 color: rgb(255, 167, 55);
             }
-            .first_subtitle{
-                display: none;
+            .card_title{
+                padding-bottom: 20px;
+                font-weight: 800;
+                
+            }
+            .card_paragraph{
+                padding-bottom: 35px;
+                line-height: 1.7;
+            }
+            .card_subtitle{
+                color: rgb(255, 167, 55);
             }
             .second_subtitle{
-                display: block;
+                    display: none;
+                }
+            &:hover{
+                .card_title{
+                    color: rgb(255, 167, 55);
+                }
+                .first_subtitle{
+                    display: none;
+                }
+                .second_subtitle{
+                    display: block;
+                }
             }
         }
     }

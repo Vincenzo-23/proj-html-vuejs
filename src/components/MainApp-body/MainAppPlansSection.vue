@@ -1,5 +1,5 @@
 <template>
-    <div class="plans_section">
+    <section class="plans_section">
         <!-- Plans section description -->
         <div class="container_small">
             <div class="description">
@@ -75,7 +75,7 @@
                 
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -89,99 +89,100 @@
     background-image: url(images/background1.jpg);
     background-size: cover;
     padding: 110px 0 100px;
-}
-
-// Plans section description
-.description{
-    text-align: center;
-    color: white;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 70px;
-        font-size: 20px;
-    }
-}
-
-// Cards grid
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    .card{
-        background-color: white;
-        padding: 35px 75px 28px;
+    
+    // Plans section description
+    .description{
         text-align: center;
-        .card_title{
-            font-size: 24px;
-            padding-bottom: 20px;
+        color: white;
+        h2{
+            font-size: 34px;
             font-weight: 700;
-            
+            margin-bottom: 35px;
         }
-        .card_price{
-            position: relative;
-            .amount{
-                font-size: 50px;
-                font-weight: 700;
-                color: rgb(96, 122, 254);
-            }
-            .currency{
-                color: rgb(32, 32, 32);
-                font-size: 18px;
-                font-weight: 700;
-                position: absolute;
-                left: 8px;
-                top: 16px;
-            }
-            .cents{
-                font-weight: 700;
-                color: rgb(96, 122, 254);
-                position: absolute;
-                top: 14px;
-            }
-            .time{
-                color: rgb(93, 95, 100);
-                font-style: oblique;
-                font-size: 12px;
-                font-weight: 700;
-            }
-        }
-        ul{
-            color: rgb(93, 95, 100);
-            font-weight: 600;
-            margin-top: 50px;
-            li{
-                margin-bottom: 40px;
-            }
-        }
-        .card_button{
-            border-radius: 999px;
-            padding: 12px 15px;
-            font-size: 12px;
-            font-weight: 800;
-            background-color: white;
-            border: 1px solid black;
-            color: rgb(93, 95, 100);
-        }
-        .selected_button{
-            background-color: rgb(255, 167, 55);
-            color: white;
-            border: none;
-        }
-        &:hover{
-            .card_title{
-                color: rgb(96, 122, 254)
-            }
-            .card_button,
-            .selected_button{
-                background-color: white;
-                border: 1px solid rgb(96, 122, 254);
-                color: rgb(96, 122, 254)
-            }
+        p{
+            margin-bottom: 70px;
+            font-size: 20px;
         }
     }
-}    
+    
+    // Cards grid
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        .card{
+            background-color: white;
+            padding: 35px 75px 28px;
+            text-align: center;
+            .card_title{
+                font-size: 24px;
+                padding-bottom: 20px;
+                font-weight: 700;
+                
+            }
+            .card_price{
+                position: relative;
+                .amount{
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: rgb(96, 122, 254);
+                }
+                .currency{
+                    color: rgb(32, 32, 32);
+                    font-size: 18px;
+                    font-weight: 700;
+                    position: absolute;
+                    left: 8px;
+                    top: 16px;
+                }
+                .cents{
+                    font-weight: 700;
+                    color: rgb(96, 122, 254);
+                    position: absolute;
+                    top: 14px;
+                }
+                .time{
+                    color: rgb(93, 95, 100);
+                    font-style: oblique;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+            }
+            ul{
+                color: rgb(93, 95, 100);
+                font-weight: 600;
+                margin-top: 50px;
+                li{
+                    margin-bottom: 40px;
+                }
+            }
+            .card_button{
+                border-radius: 999px;
+                padding: 12px 15px;
+                font-size: 12px;
+                font-weight: 800;
+                background-color: white;
+                border: 1px solid black;
+                color: rgb(93, 95, 100);
+            }
+            .selected_button{
+                background-color: rgb(255, 167, 55);
+                color: white;
+                border: none;
+            }
+            &:hover{
+                .card_title{
+                    color: rgb(96, 122, 254)
+                }
+                .card_button,
+                .selected_button{
+                    background-color: white;
+                    border: 1px solid rgb(96, 122, 254);
+                    color: rgb(96, 122, 254)
+                }
+            }
+        }
+    }    
+}
+
 </style>

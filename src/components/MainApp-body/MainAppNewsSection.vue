@@ -1,5 +1,5 @@
 <template>
-    <div class="news_section">
+    <section class="news_section">
         <!-- News description section-->
         <div class="container_small">
             <div class="description">
@@ -38,13 +38,13 @@
                 </div>
             </div>
         </div>
-        <!-- Section button -->
+        <!-- News Section button -->
         <div class="container_small">
             <div class="button_wrap">
                 <button class="button">GO TO NEWS</button>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -57,54 +57,55 @@
 .news_section{
     background-color: rgb(247, 248, 249);
     padding: 115px 0 110px;
+    
+    // Description section
+    .description{
+        text-align: center;
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        p{
+            margin-bottom: 80px;
+            font-size: 20px;
+        }
+    }
+    
+    // Cards
+    .card{
+        background-color: rgb(247, 248, 249);
+        width: 375px;
+        padding: 0;
+        text-align: center;
+        .card_picture{
+            height: 240px;
+        }
+        .card-title{
+            color: rgb(255, 167, 55);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .card-subtitle{
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    // Button
+    .button_wrap{
+        text-align: center;
+        padding-top: 70px;
+        .button{
+            border-radius: 999px;
+            padding: 12px 35px;
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: rgb(255, 167, 55);
+            
+        }
+    }
 }
 
-// Description section
-.description{
-    text-align: center;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 80px;
-        font-size: 20px;
-    }
-}
-
-// Cards
-.card{
-    background-color: rgb(247, 248, 249);
-    width: 375px;
-    padding: 0;
-    text-align: center;
-    .card_picture{
-        height: 240px;
-    }
-    .card-title{
-        color: rgb(255, 167, 55);
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .card-subtitle{
-        font-size: 10px;
-        margin-bottom: 20px;
-    }
-}
-
-// Button
-.button_wrap{
-    text-align: center;
-    padding-top: 70px;
-    .button{
-        border-radius: 999px;
-        padding: 12px 35px;
-        color: white;
-        font-size: 12px;
-        font-weight: 700;
-        background-color: rgb(255, 167, 55);
-        
-    }
-}
 </style>

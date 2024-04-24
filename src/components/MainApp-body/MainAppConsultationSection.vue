@@ -1,5 +1,5 @@
 <template>
-    <div class="consultation_section">
+    <section class="consultation_section">
         <div class="container_small">
             <!-- Consultation description section -->
             <div class="description">
@@ -10,7 +10,7 @@
                 <button class="button">CONTACT US NOW</button>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -27,26 +27,28 @@
     background-image: url(/images/CTA-seo-1.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: color;
+    
+    // Consultation description section
+    .description{
+        text-align: center;
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        p{
+            margin-bottom: 35px;
+            font-size: 20px;
+        }
+        .button{
+            border-radius: 999px;
+            padding: 12px 35px;
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: rgb(255, 167, 55);
+        }
+    }
 }
 
-.description{
-    text-align: center;
-    h2{
-        font-size: 34px;
-        font-weight: 700;
-        margin-bottom: 35px;
-    }
-    p{
-        margin-bottom: 35px;
-        font-size: 20px;
-    }
-    .button{
-        border-radius: 999px;
-        padding: 12px 35px;
-        color: white;
-        font-size: 12px;
-        font-weight: 700;
-        background-color: rgb(255, 167, 55);
-    }
-}
 </style>
